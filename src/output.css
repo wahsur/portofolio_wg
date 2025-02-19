@@ -1184,6 +1184,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-primary2 {
+  --tw-text-opacity: 1;
+  color: rgb(57 101 45 / var(--tw-text-opacity, 1));
+}
+
 .opacity-60 {
   opacity: 0.6;
 }
@@ -1536,6 +1541,11 @@ body{
 .dark\:text-primary2:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(57 101 45 / var(--tw-text-opacity, 1));
+}
+
+.dark\:text-primary:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(49 63 46 / var(--tw-text-opacity, 1));
 }
 
 .dark\:shadow-slate-500:is(.dark *) {
